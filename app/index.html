@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <script src="../scripts/angular.min.js"></script>
+    <script src="mainFeature/mainDirective.js"></script>
+    <script src="mainFeature/mainCtrl.js"></script>
+    <script src="mainFeature/mainSvc.js"></script>
+    <script src="bootstrap/bootstrapper.js"></script>
+</head>
+<body>
+<h2>AngularJS-NodeJS App</h2>
+<div ng-controller="mainController">
+<button ng-click="getMessage()">
+    GET
+</button>
+<button ng-click="postMessage()">
+   POST
+</button>
+<div>
+ {{message}}
+</div>
+</div>
+</body>
+<!DOCTYPE html>
