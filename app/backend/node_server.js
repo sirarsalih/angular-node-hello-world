@@ -1,4 +1,4 @@
-var express = require('C:/Program Files/nodejs/node_modules/express');
+var express = require('express');
 var app = express();
 var port = 1337;
 
